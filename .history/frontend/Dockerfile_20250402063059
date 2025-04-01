@@ -9,6 +9,6 @@ RUN npm install
 # Copy toàn bộ source code
 COPY . .
 
-EXPOSE 80
+EXPOSE 
 
 CMD ["npm", "start"]

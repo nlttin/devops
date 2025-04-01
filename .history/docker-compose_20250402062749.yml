@@ -3,13 +3,12 @@ services:
   backend:
     build: ./backend
     ports:
-      - "9001:9001"
+      - "9001:3000"
     environment:
       - DB_HOST=mysql
       - DB_USER=root
       - DB_PASSWORD=password
       - DB_NAME=filmdb
-      - PORT=9001
     depends_on:
       - mysql
   

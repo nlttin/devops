@@ -9,7 +9,6 @@ services:
       - DB_USER=root
       - DB_PASSWORD=password
       - DB_NAME=filmdb
-      - PORT=9001
     depends_on:
       - mysql
   

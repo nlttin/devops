@@ -36,7 +36,7 @@ app.post('/films', (req, res) => {
   });
 });
 
-const PORT = process.env.PORT || 9001;
+const PORT = process.env.PORT || 9000;
 app.listen(PORT, () => {
   console.log(`Backend running on port ${PORT}`);
 });
